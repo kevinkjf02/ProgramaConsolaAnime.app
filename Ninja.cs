@@ -18,7 +18,7 @@ namespace ProgramaConsolaAnime.app
 
         public void CaracteristicaNinja()
         {
-            Console.WriteLine("El ninja que va realizar la mision es:" + "\n");
+            Console.WriteLine("El ninja que va realizar la misión es:" + "\n");
             ArmamentoNinja();
             HabilidadNija();
             Console.Write(nombreNinja + " " + apellidoNinja + " " + "la edad es de" + " " + edadNinja + " " + "va realizar la mision con el siguiente armamento" + " " + armamentoNinja + "" + "tiene un  cargo de" + " " + cargoNinja + "\n");
@@ -26,9 +26,9 @@ namespace ProgramaConsolaAnime.app
         }
         public void InformacionGenerarNinja()
         {
-            Console.WriteLine("Ingrese la aldea donde pertenese");
+            Console.WriteLine("Ingrese la aldea donde pertenese: ");
             aldeNinja = Console.ReadLine();
-            Console.WriteLine("Clan perteneciente");
+            Console.WriteLine("Clan perteneciente: ");
             clanNinja = Console.ReadLine(); ;
 
         }
@@ -54,7 +54,7 @@ namespace ProgramaConsolaAnime.app
                 var cantidadArmamentoNinja = Console.ReadLine();
                 if (!int.TryParse(cantidadArmamentoNinja, out cantidadArmamentoNinja1))
                 {
-                    Console.Write("Ingrese un valor numerico");
+                    Console.Write("Ingrese un valor numérico");
                 }
                 else
                 {

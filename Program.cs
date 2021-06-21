@@ -26,7 +26,7 @@ namespace ProgramaConsolaAnime.app
             Misiones infoMision = new Misiones();
             infoMision.nombreMision = "Escolta un Jefe";
             infoMision.liderDeMision = "Kakashi";
-            infoMision.quienMandaLaMision = "hokage";
+            infoMision.quienMandaLaMision = "Hokage";
             infoMision.nacionDeMision = "Suna";
             infoMision.ubicacionDeLaMision = "Aldea Oculta de Las Nubes";
             infoMision.MisionesAsignadas();

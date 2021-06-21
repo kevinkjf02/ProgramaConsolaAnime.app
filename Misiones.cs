@@ -9,18 +9,18 @@ namespace ProgramaConsolaAnime.app
         public string integrantesMision1;// primer integrante
         public string integrantesMision2;//Segundo integrante
         public string nacionDeMision;
-        public string quienMandaLaMision;// quien asigna la mision
-        public string ubicacionDeLaMision;// ubicacion donde toca ir hacer la mision
-        public string detalleMision;// de que se trata la mision
-        public string valorporMision; // cuanto cuesta hacer la mision
+        public string quienMandaLaMision;// quien asigna la misión
+        public string ubicacionDeLaMision;// ubicacion donde toca ir hacer la misión
+        public string detalleMision;// de que se trata la misión
+        public string valorporMision; // cuanto cuesta hacer la misión
 
         public void MisionesAsignadas()
         {
-            Console.WriteLine("Nombre de la mision que vas a realizar: "+this.nombreMision);
-            Console.WriteLine("El lider de grupo va ser : " + this.liderDeMision);
-            Console.WriteLine("La nacion de la misión: " + this.nacionDeMision);
-            Console.WriteLine("La ubicacion de la mision es: " + this.ubicacionDeLaMision);
-            Console.WriteLine("Quien asigno la misión: " + this.quienMandaLaMision);
+            Console.WriteLine("Nombre de la mision que vas a realizar: "+nombreMision);
+            Console.WriteLine("El lider de grupo va ser : " + liderDeMision);
+            Console.WriteLine("La nacion de la misión: " + nacionDeMision);
+            Console.WriteLine("La ubicacion de la mision es: " + ubicacionDeLaMision);
+            Console.WriteLine("Quien asigno la misión: " + quienMandaLaMision);
             IngresodeIntegrantes();
             DetalleMisionG();
             CategoriaMisionG();
@@ -31,7 +31,7 @@ namespace ProgramaConsolaAnime.app
         }
         public void IngresodeIntegrantes()
         {
-            Console.WriteLine("Ingrese nombres de integrantes:");
+            Console.WriteLine("Ingrese nombres de integrantes para la misión:");
             Console.WriteLine("Integrante 1:");
             integrantesMision1 = Console.ReadLine();
             Console.WriteLine("Integrante 2:");
@@ -42,8 +42,8 @@ namespace ProgramaConsolaAnime.app
         public void DetalleMisionG()
         {
             valorporMision = "50,000$ rion";
-            detalleMision = "Tiene que escoltar un jefe de otra aldea , acompañaerle y llevarlo con vida";
-            Console.WriteLine("La misión consta de: " + detalleMision + "y el coste de la mision es: "+valorporMision);
+            detalleMision = "Tiene que escoltar un jefe de otra aldea , acompañaerlo y llevarlo con vida";
+            Console.WriteLine("La misión consta de: " + detalleMision + "y el coste de la misión es: "+valorporMision);
         }
         public void CategoriaMisionG()
         {
